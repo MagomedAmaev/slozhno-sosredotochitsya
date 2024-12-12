@@ -1,12 +1,56 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
+:root.theme_light {
+  --main-font: "IBM Plex Mono";
+  --bg-color: #fff1f7;
+  --page__title-color: #ffc2e6;
+  --bg__title-color: #ff8dcb;
+  --title2-color: #353430;
+  --title3-color: #353430;
+  --main__text-color: #353430;
+}
 
-.page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+body.theme_light {
+  --main-font: "IBM Plex Mono";
+  --bg-color: #fff1f7;
+  --page__title-color: #ffc2e6;
+  --bg__title-color: #ff8dcb;
+  --title2-color: #353430;
+  --title3-color: #353430;
+  --main__text-color: #353430;
+  .header {
+    background-image: url(../images/cover-image-light.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .header__rec::before {
+    content: "";
+  }
+  .header__rec::after {
+    background-color: inherit;
+    box-shadow: none;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --main-font: "IBM Plex Mono";
+    --bg-color: #fff1f7;
+    --page__title-color: #ffc2e6;
+    --bg__title-color: #ff8dcb;
+    --title2-color: #353430;
+    --title3-color: #353430;
+    --main__text-color: #353430;
+  }
+  .header {
+    background-image: url(../images/cover-image-light.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .header__rec::before {
+    content: "";
+  }
+  .header__rec::after {
+    background-color: inherit;
+    box-shadow: none;
+  }
 }
