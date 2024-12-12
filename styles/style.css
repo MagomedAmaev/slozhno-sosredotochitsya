@@ -1,6 +1,7 @@
 .page {
   background-color: var(--bg-color);
   font-family: var(--main-font);
+  background-attachment: fixed;
 }
 
 .header {
@@ -98,7 +99,10 @@
 
 .page__title {
   font-family: var(--main-font), sans-serif;
-  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); 
+  font-size: clamp(7.5rem, 
+  0.5625rem + 
+  14.4531vw, 
+  9.8125rem);
   font-weight: 700;
   line-height: 95.7px;
   text-align: left;
@@ -318,13 +322,12 @@
     margin-left: 10px;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
- 
+
   .header__theme-menu {
     margin-right: 17px;
   }
 
   .header__theme-menu-list {
-   
     margin-top: 12px;
     gap: 15px;
   }
