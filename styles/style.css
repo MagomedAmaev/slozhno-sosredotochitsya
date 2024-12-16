@@ -22,8 +22,8 @@
   position: absolute;
   inline-size: 25px;
   block-size: 25px;
-  border-block-start: 1px solid var(--section__Heading-color);
-  border-inline-end: 1px solid var(--section__Heading-color);
+  border-block-start: 1px solid var(--section__heading-color);
+  border-inline-end: 1px solid var(--section__heading-color);
   right: 20px;
   top: 20px;
 }
@@ -33,8 +33,8 @@
   position: absolute;
   inline-size: 25px;
   block-size: 25px;
-  border-block-end: 1px solid var(--section__Heading-color);
-  border-inline-start: 1px solid var(--section__Heading-color);
+  border-block-end: 1px solid var(--section__heading-color);
+  border-inline-start: 1px solid var(--section__heading-color);
   bottom: 20px;
   left: 20px;
 }
@@ -80,7 +80,7 @@
   font-weight: 400;
   line-height: 18px;
   text-transform: lowercase;
-  color: var(--section__Heading-color);
+  color: var(--section__heading-color);
   cursor: pointer;
 }
 
@@ -91,12 +91,12 @@
 
 .header__theme-menu-button:focus-visible {
   outline: none;
-  border-bottom: 1px solid var(--sub__Heading-color);
+  border-bottom: 1px solid var(--sub__heading-color);
 }
 
 .header__theme-menu-button_active {
-  outline: 1px solid var(--section__Heading-color);
-  padding: 1.5px 13px;
+  outline: 1px solid var(--section__heading-color);
+  padding: 1.5px 13px 5px 13px;
   pointer-events: none;
 }
 
@@ -128,7 +128,7 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px;
-  color: var(--sub__Heading-color);
+  color: var(--sub__heading-color);
   background-color: var(--bg__title-color);
 }
 
@@ -199,7 +199,7 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px;
-  color: var(--section__Heading-color);
+  color: var(--section__heading-color);
 }
 
 .article__title-text {
@@ -208,7 +208,7 @@
   font-weight: 400;
   line-height: 23.4px;
   background-color: var(--bg__title-color);
-  color: var(--sub__Heading-color);
+  color: var(--sub__heading-color);
 }
 
 .main__article {
@@ -286,7 +286,8 @@
   .header__theme-menu {
     justify-self: end;
     align-self: center;
-    margin-right: 30px;
+    text-align: center;
+    margin-right: 2.5vw;
   }
   .header__theme-menu-list {
     flex-direction: column;
@@ -332,10 +333,6 @@
   .page__title {
     padding-left: 10px;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  }
-
-  .header__theme-menu {
-    margin-right: 4px;
   }
 
   .header__theme-menu-list {

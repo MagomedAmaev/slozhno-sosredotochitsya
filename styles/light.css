@@ -3,8 +3,8 @@
   --bg-color: #fff1f7;
   --page__title-color: #ffc2e6;
   --bg__title-color: #ff8dcb;
-  --section__Heading-color: #353430;
-  --sub__Heading-color: #353430;
+  --section__heading-color: #353430;
+  --sub__heading-color: #353430;
   --main__text-color: #353430;
   --border-color: rgba(50, 49, 45, 0.4);
 }
@@ -14,8 +14,8 @@ body.theme_light {
   --bg-color: #fff1f7;
   --page__title-color: #ffc2e6;
   --bg__title-color: #ff8dcb;
-  --section__Heading-color: #353430;
-  --sub__Heading-color: #353430;
+  --section__heading-color: #353430;
+  --sub__heading-color: #353430;
   --main__text-color: #353430;
   --border-color: rgba(50, 49, 45, 0.4);
   .header {
@@ -39,8 +39,8 @@ body.theme_light {
     --bg-color: #fff1f7;
     --page__title-color: #ffc2e6;
     --bg__title-color: #ff8dcb;
-    --section__Heading-color: #353430;
-    --sub__Heading-color: #353430;
+    --section__heading-color: #353430;
+    --sub__heading-color: #353430;
     --main__text-color: #353430;
     --border-color: rgba(50, 49, 45, 0.4);
   }

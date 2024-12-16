@@ -3,8 +3,8 @@
   --bg-color: #000028;
   --page__title-color: #db00ff;
   --bg__title-color: #ff0070;
-  --section__Heading-color: #ff0070;
-  --sub__Heading-color: #000028;
+  --section__heading-color: #ff0070;
+  --sub__heading-color: #000028;
   --main__text-color: #f1b2ce;
   --border-color: rgba(255, 0, 112, 0.4);
 }
@@ -14,8 +14,8 @@ body.theme_dark {
   --bg-color: #000028;
   --page__title-color: #db00ff;
   --bg__title-color: #ff0070;
-  --section__Heading-color: #ff0070;
-  --sub__Heading-color: #000028;
+  --section__heading-color: #ff0070;
+  --sub__heading-color: #000028;
   --main__text-color: #f1b2ce;
   --border-color: rgba(255, 0, 112, 0.4);
 
