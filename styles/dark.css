@@ -24,4 +24,30 @@ body.theme_dark {
     background-position: center;
     background-size: cover;
   }
+
+  .header__rec::before {
+    content: "REC";
+    color: #ff0070;
+    position: absolute;
+    display: block;
+    font-family: var(--main-font), sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    top: 20px;
+    right: 53px;
+  }
+  
+  .header__rec::after {
+    position: absolute;
+    content: "";
+    display: block;
+    inline-size: 9px;
+    block-size: 9px;
+    background-color: var(--bg__title-color);
+    border-radius: 50%;
+    box-shadow: 0 0 4px 2px var(--bg__title-color);
+    top: 28px;
+    right: 30px;
+  }
 }
