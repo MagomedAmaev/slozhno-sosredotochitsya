@@ -34,8 +34,7 @@ body.theme_dark {
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
-    top: 20px;
-    right: 53px;
+  
   }
   
   .header__rec::after {
@@ -47,7 +46,6 @@ body.theme_dark {
     background-color: var(--bg__title-color);
     border-radius: 50%;
     box-shadow: 0 0 4px 2px var(--bg__title-color);
-    top: 28px;
-    right: 30px;
+   
   }
 }
